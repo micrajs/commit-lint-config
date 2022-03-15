@@ -1,0 +1,25 @@
+{
+  "name": "@micra/commit-lint-config",
+  "version": "0.1.0-next.0",
+  "description": "Micra's Commit Lint configurations",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micrajs/commit-lint-config.git"
+  },
+  "author": "Olavo Amorim Santos<olavo.santos@micra.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/micrajs/community/issues?q=is:issue+is:open+label:%22Project:+developer-tools%22+label:%22Type:+fix%22"
+  },
+  "homepage": "https://github.com/micrajs/commit-lint-config#readme",
+  "peerDependencies": {
+    "@commitlint/cli": ">= 16.2.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.1"
+  },
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "^4.6.3"
+  }
+}
